@@ -46,6 +46,7 @@ def plot_approximations(
 def main(*args, **kwargs) -> None:
     """
     Compute and plot approximations of Pi via the Leibniz formula.
+    https://en.wikipedia.org/wiki/Leibniz_formula_for_%CF%80
     """
     setup_plot()
     subsequent_leibniz_pi_approximations = create_subsequent_leibniz_pi_approximations()
